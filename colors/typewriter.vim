@@ -9,7 +9,7 @@ endif
 
 let g:colors_name = "typewriter"
 
-hi Cursor                                   guibg=#00BAFF
+hi Cursor          ctermfg=039 ctermbg=255  guibg=#00BAFF
 hi Normal          ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
 hi Title           ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE term=bold   cterm=bold   gui=bold
 hi Special         ctermfg=234 ctermbg=NONE guifg=#1C1C1C guibg=NONE
@@ -32,19 +32,19 @@ hi linenr          ctermfg=250 ctermbg=255  guifg=#BCBCBC term=bold cterm=NONE
 hi CursorLine      ctermfg=235 ctermbg=NONE guifg=#262626 guibg=NONE
 hi CursorLineNR    ctermfg=232 ctermbg=255  guifg=#080808 term=bold cterm=bold gui=bold
 hi Search          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4 cterm=bold gui=bold
-hi IncSearch       ctermfg=235 ctermbg=121  guifg=#424242 guibg=#C3E9DB cterm=bold gui=bold
+hi IncSearch       ctermfg=235 ctermbg=158  guifg=#424242 guibg=#C3E9DB cterm=bold gui=bold
 hi WildMenu        ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
 
 " Messages
 hi ModeMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
 hi MoreMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
 hi WarningMsg      ctermfg=202 ctermbg=255  guifg=#FF5F00 guibg=#EEEEEE
-hi ErrorMsg        ctermfg=197 ctermbg=255  guifg=#E41D91 guibg=#EEEEEE cterm=italic gui=italic
+hi ErrorMsg        ctermfg=199 ctermbg=255  guifg=#E41D91 guibg=#EEEEEE cterm=italic gui=italic
 
 hi Visual          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4
 hi SpecialKey      ctermfg=255 ctermbg=NONE
-hi NonText         ctermfg=255 ctermbg=NONE
-hi ExtraWhitespace             ctermbg=115  guibg=#87D7AF
+hi NonText         ctermfg=249 ctermbg=NONE
+hi ExtraWhitespace             ctermbg=199  guibg=#E31C92
 hi MatchParen      ctermfg=234 ctermbg=253  guifg=#1C1C1C guibg=#DADADA cterm=bold gui=bold gui=bold
 hi Pmenu           ctermfg=235 ctermbg=252  guifg=#424242 guibg=#D0D0D0
 hi PmenuSel        ctermfg=255 ctermbg=234  guifg=#EEEEEE guibg=#1C1C1C
@@ -144,3 +144,4 @@ hi goStructDef ctermfg=235 ctermbg=NONE guifg=#424242 cterm=italic gui=italic
 " NerdTree
 hi link NERDTreeDir Special
 hi NERDTreeFile     ctermfg=241
+
