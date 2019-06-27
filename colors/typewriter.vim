@@ -9,7 +9,7 @@ endif
 
 let g:colors_name = "typewriter"
 
-hi Cursor          ctermfg=039              guibg=#00BAFF
+hi Cursor          ctermfg=63               guibg=#528BFF
 hi Normal          ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
 hi Title           ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE term=bold   cterm=bold   gui=bold
 hi Special         ctermfg=234 ctermbg=NONE guifg=#1C1C1C guibg=NONE
@@ -44,7 +44,7 @@ hi ErrorMsg        ctermfg=199 ctermbg=255  guifg=#E41D91 guibg=#EEEEEE cterm=it
 hi Visual          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4
 hi SpecialKey      ctermfg=255 ctermbg=NONE
 hi NonText         ctermfg=255 ctermbg=NONE
-hi ExtraWhitespace             ctermbg=199  guibg=#E31C92
+hi ExtraWhitespace             ctermbg=250  guibg=#BCBCBC
 hi MatchParen      ctermfg=234 ctermbg=253  guifg=#1C1C1C guibg=#DADADA cterm=bold gui=bold gui=bold
 hi Pmenu           ctermfg=235 ctermbg=252  guifg=#424242 guibg=#D0D0D0
 hi PmenuSel        ctermfg=255 ctermbg=234  guifg=#EEEEEE guibg=#1C1C1C

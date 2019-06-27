@@ -9,7 +9,7 @@ endif
 
 let g:colors_name = "typewriter-night"
 
-hi Cursor          ctermfg=039              guibg=#00BAFF
+hi Cursor          ctermfg=63               guibg=#528BFF
 hi Normal          ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626
 hi Title           ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626 term=bold cterm=bold
 hi Special         ctermfg=250 ctermbg=NONE guifg=#BCBCBC guibg=NONE
@@ -40,11 +40,10 @@ hi ModeMsg         ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626
 hi MoreMsg         ctermfg=254 ctermbg=235  guifg=#E4E4E4 guibg=#262626
 hi WarningMsg      ctermfg=202 ctermbg=235  guifg=#FF5F00 guibg=#262626
 hi ErrorMsg        ctermfg=199 ctermbg=234  guifg=#E41D91 guibg=#1C1C1C term=italic cterm=italic
-
 hi Visual          ctermfg=235 ctermbg=153  guifg=#262626 guibg=#AFD7FF
 hi SpecialKey      ctermfg=254 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
 hi NonText         ctermfg=249 ctermbg=NONE
-hi ExtraWhitespace             ctermbg=199                guibg=#E31C92
+hi ExtraWhitespace             ctermbg=237                guibg=#3A3A3A
 hi MatchParen      ctermfg=250 ctermbg=238  guifg=#BCBCBC guibg=#444444 cterm=bold
 hi Pmenu           ctermfg=254 ctermbg=233  guifg=#E4E4E4 guibg=#121212
 hi PmenuSel        ctermfg=234 ctermbg=255  guifg=#1C1C1C guibg=#EEEEEE
