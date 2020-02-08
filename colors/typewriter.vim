@@ -34,6 +34,7 @@ hi CursorLineNR    ctermfg=232 ctermbg=255  guifg=#080808 term=bold cterm=bold g
 hi Search          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4 cterm=bold gui=bold
 hi IncSearch       ctermfg=235 ctermbg=158  guifg=#424242 guibg=#C3E9DB cterm=bold gui=bold
 hi WildMenu        ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
+hi Folded          ctermfg=232 ctermbg=255  guifg=#080808 term=bold cterm=bold gui=bold
 
 " Messages
 hi ModeMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
