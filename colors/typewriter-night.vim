@@ -43,7 +43,7 @@ hi WarningMsg      ctermfg=202 ctermbg=235  guifg=#FF5F00 guibg=#262626
 hi ErrorMsg        ctermfg=199 ctermbg=234  guifg=#E41D91 guibg=#1C1C1C term=italic cterm=italic
 hi Visual          ctermfg=235 ctermbg=153  guifg=#262626 guibg=#AFD7FF
 hi SpecialKey      ctermfg=254 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
-hi NonText         ctermfg=249 ctermbg=NONE
+hi NonText         ctermfg=249 ctermbg=NONE guifg=#E4E4E4 guibg=NONE
 hi ExtraWhitespace             ctermbg=237                guibg=#3A3A3A
 hi MatchParen      ctermfg=250 ctermbg=238  guifg=#BCBCBC guibg=#444444 cterm=bold
 hi Pmenu           ctermfg=254 ctermbg=233  guifg=#E4E4E4 guibg=#121212

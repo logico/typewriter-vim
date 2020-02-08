@@ -34,7 +34,7 @@ hi CursorLineNR    ctermfg=232 ctermbg=255  guifg=#080808 term=bold cterm=bold g
 hi Search          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4 cterm=bold gui=bold
 hi IncSearch       ctermfg=235 ctermbg=158  guifg=#424242 guibg=#C3E9DB cterm=bold gui=bold
 hi WildMenu        ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
-hi Folded          ctermfg=232 ctermbg=255  guifg=#080808 term=bold cterm=bold gui=bold
+hi Folded          ctermfg=232 ctermbg=255  guifg=#080808 guibg=#EEEEEE term=bold cterm=bold gui=bold
 
 " Messages
 hi ModeMsg         ctermfg=235 ctermbg=255  guifg=#424242 guibg=#EEEEEE
@@ -44,7 +44,7 @@ hi ErrorMsg        ctermfg=199 ctermbg=255  guifg=#E41D91 guibg=#EEEEEE cterm=it
 
 hi Visual          ctermfg=235 ctermbg=153  guifg=#424242 guibg=#C1E7F4
 hi SpecialKey      ctermfg=255 ctermbg=NONE
-hi NonText         ctermfg=255 ctermbg=NONE
+hi NonText         ctermfg=255 ctermbg=NONE  guifg=#EEEEEE guibg=NONE
 hi ExtraWhitespace             ctermbg=250  guibg=#BCBCBC
 hi MatchParen      ctermfg=234 ctermbg=253  guifg=#1C1C1C guibg=#DADADA cterm=bold gui=bold gui=bold
 hi Pmenu           ctermfg=235 ctermbg=252  guifg=#424242 guibg=#D0D0D0
