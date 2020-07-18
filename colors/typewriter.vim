@@ -27,6 +27,7 @@ hi Function        ctermfg=240 ctermbg=NONE guifg=#585858 cterm=italic gui=itali
 hi Repeat          ctermfg=244 ctermbg=NONE guifg=#808080 guibg=NONE
 hi Operator        ctermfg=239 ctermbg=NONE guifg=#4E4E4E guibg=NONE
 hi Error           ctermfg=9   ctermbg=NONE guifg=#FF1493 guibg=NONE
+hi SpellBad        ctermfg=9   ctermbg=NONE guifg=#FF1493 guibg=NONE
 hi TODO            ctermfg=135 ctermbg=NONE guifg=#AF5FFF guibg=NONE cterm=italic gui=italic
 hi linenr          ctermfg=250 ctermbg=255  guifg=#BCBCBC term=bold cterm=NONE
 hi CursorLine                  ctermbg=254  guifg=#262626 guibg=NONE term=bold cterm=NONE
